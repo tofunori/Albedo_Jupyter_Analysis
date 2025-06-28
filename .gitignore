@@ -1,0 +1,59 @@
+# Data and results directories
+modis_analysis/
+modis_batch_analysis/
+modis_melt_season_2017_2024/
+data/
+plots/
+notebooks_backup/
+
+# Specific file types
+*.csv
+*.png
+*.jpg
+*.jpeg
+*.db
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Environment variables
+.env
+.venv
+env/
+venv/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.hdf
+*.hdf5
+modis_analysis/clipped/*
+modis_melt_season_2017_2024/clipped/*
+*.db
